@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <!-- <div class="overlay"></div> -->
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">NIS<span>HU.</span></a>
+            <div class="links">
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Me</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact Me</a></li>
+                </ul>
+                <i class="uil uil-moon toggle-btn"></i>
+            </div>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="showcase-area" id ="home">
+            <div class="container">
+                <div class="showcase-info">
+                    <h3 class="sub-heading">Undergraduate Software Engineer </h3>
+                    <h1 class="heading">Nishu Kumari</h1>
+                    <p class="mine">
+                        I'm a Web Developer, I love to create beautiful and functional websites.
+                    </p><br>
+                    <a href="https://www.linkedin.com/in/nishu-k-b7b34621a/" class="social-linkm"><i class="uil uil-linkedin"></i></a>
+                    <a href="https://github.com/Nishusk" class="social-linkm"><i class="uil uil-github"></i></a>
+                    <div class="cta">
+                        <a href="mailto:nishusk05@gmail.com" class="btn">Hire Me</a>
+                        <a href="./assets/CV.pdf" class="download-button" download><span>Download CV</span></a>
+                    </div>
+                </div>
+                <div class="showcase-image">
+                    <img src="./assets/nishu.png" class="person" alt="sheran">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <h3 class="sub-heading">Academic Qualifications</h3><br><br>
+                    <div class="about-containers">
+                        <div class="details-container">
+                          <button class="togglebtn" onclick="toggleEducation()">
+                            <i class="uil uil-angle-down"></i>EDUCATION<i class="uil uil-angle-down"></i>
+                        </button>
+                          <div id="myDiv1" class="hidden" style="display: none;">
+                            <br><p><b>B.Tech. (Hons.) in Computer Science Engineering</b><br>National Institute of Technology, Mizoram.<br>December 2020 - May 2024</p>
+                            <br><p><b>Intermediate(Science)</b><br>Don Bosco Hr.Sec School,Mizoram.<br>2018 - 2020</p><br>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <button class="togglebtn" onclick="toggleVolanteering()">
+                                <i class="uil uil-angle-down"></i>VOLANTEERING<i class="uil uil-angle-down"></i>
+                            </button>
+                    
+                            <div id="myDiv2" class="hidden" style="display: none;">
+                                <br>
+                                <p><b>Editor</b><br>
+                                     Computer Science Engineering, National Institute of Technology ,Mizoram<br>
+                                    August 2021 - Present
+                                </p>
+                                <br>
+                                <p><b>Committee Member</b><br>
+                                    Unstop Club, NIT MIZORAM<br>
+                                    July 2021 - Present
+                                </p>
+                                <br>
+                                <p><b>Committee Member</b><br>
+                                    CSE SOCIETY, NIT MIZORAM<br>
+                                    Jul 2023 - Present
+                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <h3 class="sub-heading">About Me</h3>
+                    <h1 class="heading">I'm Nishu Kumari</h1>
+                    <p class="text">As a passionate Software Engineering student in my third year of studies, I focus on Net-centric
+                        applications, mobile applications, and Business Engineering Applications. I'm eager to gain practical industry
+                        experience and looking for an exciting internship that matches my knowledge, quick learning ability, and creative
+                        talents. I'm driven to work in a lively and stimulating environment.</p>
+                    <div class="cta">
+                        <a href="mailto:nishuskumari05@gmail.com" class="btn">Hire Me</a>
+                        <a href="./assets/CV.pdf" download class="btn se  condary-btn">Download CV</a>
+                    </div>
+                </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <div class="container">
+                <div class="skills-box">
+                    <div class="box-heading">
+                        <h3 class="sub-heading">Skills</h3>
+                        <h1 class="heading">Languages</h1>
+                        <div class="box-desc">
+                            <p class="text">
+                                <span>English:</span> Good in reading, writing, and speaking.<br>
+                                <span>Sinhala:</span> Native proficiency in reading, writing, and speaking<br></p>
+                                <a href="mailto:nishuskumari05@gmail.com" class="btn">Hire Me</a><br>
+                        </div>
+                        
+                    </div>
+                    <h1 class="heading">Soft Skills</h1>
+                    <div class="skills-wrap">
+                        <div class="skill">
+                            <div class="sk-progress">
+                                <svg>
+                                    <circle cx="75" cy="75" r="68"></circle>
+                                    
+                                </svg>
+                                <h2 class="counter"><span data-target="74">0</span>%</h2>
+                            </div>
+                            <div class="sk-title">Teamwork</div>
+                        </div>
+                        <div class="skill">
+                            <div class="sk-progress">
+                                <svg>
+                                    <circle cx="75" cy="75" r="68"></circle>
+                                    
+                                </svg>
+                                <h2 class="counter"><span data-target="89">0</span>%</h2>
+                            </div>
+                            <div class="sk-title">Designing</div>
+                        </div>
+                        <div class="skill">
+                            <div class="sk-progress">
+                                <svg>
+                                    <circle cx="75" cy="75" r="68"></circle>
+                                    
+                                </svg>
+                                <h2 class="counter"><span data-target="69">0</span>%</h2>
+                            </div>
+                            <div class="sk-title">Leadership</div>
+                        </div>
+                        <div class="skill">
+                            <div class="sk-progress">
+                                <svg>
+                                    <circle cx="75" cy="75" r="68"></circle>
+                                </svg>
+                                <h2 class="counter"><span data-target="56">0</span>%</h2>
+                            </div>
+                            <div class="sk-title">Communication</div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="skills-box">
+                <div class="about-stats">
+                    <h1 class="heading">Technical Skills</h1><br>
+                    <div class="progress-bars">
+                        <div class="progress-bar">
+                            <p class="prog-title">html5</p>
+                            <div class="progress-con">
+                                <p class="prog-text">80%</p>
+                                <div class="progress">
+                                    <span class="html"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="prog-title">css</p>
+                            <div class="progress-con">
+                                <p class="prog-text">85%</p>
+                                <div class="progress">
+                                    <span class="css"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="prog-title">javascript</p>
+                            <div class="progress-con">
+                                <p class="prog-text">70%</p>
+                                <div class="progress">
+                                    <span class="js"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="prog-title">ReactJS</p>
+                            <div class="progress-con">
+                                <p class="prog-text">75%</p>
+                                <div class="progress">
+                                    <span class="react"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="prog-title">C</p>
+                            <div class="progress-con">
+                                <p class="prog-text">77%</p>
+                                <div class="progress">
+                                    <span class="node"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="prog-title">NodeJS</p>
+                            <div class="progress-con">
+                                <p class="prog-text">70%</p>
+                                <div class="progress">
+                                    <span class="python"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+        <section class ="portfolio section" id="projects">
+            <div class="modal">
+                <div class="modal-overlay"></div>
+                <div class="slider-wrap">
+                    <div class="prev-btn navigation">
+                        <i class="uil uil-angle-left"></i>
+                    </div>
+                    <div class="images">
+                        <img class="showImage" src="./assets/react 1.png" alt="">
+                        <img src="./assets/electro.png" alt="">
+                        <img src="./assets/resturant 1.png" alt="">
+                        <img src="./assets/calculator 1.png" alt="">
+                        <img src="./assets/portfolio 1.png" alt="">
+                        <img src="./assets/portfolio 2.png" alt="">
+                        <img src="./assets/portfolio 3.png" alt="">
+                    </div>
+                    <div class="next-btn navigation">
+                        <i class="uil uil-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="portfolio-header">
+                    <div class="portfolio-title">
+                        <h3 class="sub-heading">Portfolio</h3>
+                        <h1 class="heading">My Projects</h1>
+                    </div>
+                    <div class="filter-btns">
+                        <button class="filter-btn" data-filter="all">ALL</button>
+                        <button class="filter-btn" data-filter=".web">Web APP</button>
+                        <button class="filter-btn" data-filter=".android">Android APP</button>
+                    </div>
+                </div>
+                <div class="portfolio-gallery">
+                    <div class="mix prt-card web">
+                        <div class="prt-image">
+                            <img src="./assets/react 1.png" alt="">
+                            <div class="prt-overlay">
+                                <span class="prt-icon zoom-icon" style="--i: 0s">
+                                    <i class="uil uil-search-plus"></i>
+                                </span>
+                                <a href="https://github.com/Nishusk/EPlanet" class="prt-icon"  style="--i: 0.12s">
+                                    <i class="uil uil-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="prt-desc">
+                            <h3>E-Planet</h3>
+                            <a href="#" class="btn secondary-btn-sm read-more-button">Read more</a>
+                        </div>
+                    </div>
+                    <div class="popup-overlay">
+                        <div class="popup-box">
+                            <div class="popup-header">
+                                <h2>React Js | REST API | JWT | MySQL</h2>
+                                <button class="popup-close-button">
+                                    <i class="uil uil-times"></i>
+                                </button>
+                            </div>
+                            <div class="popup-content">
+                                <p>This is React Project.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix prt-card web">
+                        <div class="prt-image">
+                            <img src="./assets/eplanet.png" alt="">
+                            <div class="prt-overlay">
+                                <span class="prt-icon zoom-icon" style="--i: 0s">
+                                    <i class="uil uil-search-plus"></i>
+                                </span>
+                                <a href="https://github.com/Nishusk/Electro" class="prt-icon"  style="--i: 0.12s">
+                                    <i class="uil uil-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="prt-desc">
+                            <h3>ELECTRO</h3>
+                            <a href="#" class="btn secondary-btn-sm read-more-button">Read more</a>
+                        </div>
+                    </div>
+                    <div class="popup-overlay">
+                        <div class="popup-box">
+                            <div class="popup-header">
+                                <h2>HTML | CSS | JS | PHP | MySQL</h2>
+                                <button class="popup-close-button">
+                                    <i class="uil uil-times"></i>
+                                </button>
+                            </div>
+                            <div class="popup-content">
+                                <p>This is PHP Project.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix prt-card web">
+                        <div class="prt-image">
+                            <img src="./assets/resturant 1.png" alt="">
+                            <div class="prt-overlay">
+                                <span class="prt-icon zoom-icon" style="--i: 0s">
+                                    <i class="uil uil-search-plus"></i>
+                                </span>
+                                <a href="https://github.com/Nishusk/MY-FIRST-WEB-PAGE" class="prt-icon"  style="--i: 0.12s">
+                                    <i class="uil uil-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="prt-desc">
+                            <h3>Resturant</h3>
+                            <a href="#" class="btn secondary-btn-sm read-more-button">Read more</a>
+                        </div>
+                    </div>
+                    <div class="popup-overlay">
+                        <div class="popup-box">
+                            <div class="popup-header">
+                                <h2>HTML | CSS | JS</h2>
+                                <button class="popup-close-button">
+                                    <i class="uil uil-times"></i>
+                                </button>
+                            </div>
+                            <div class="popup-content">
+                                <p>This is HTML and CSS project.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix prt-card android">
+                        <div class="prt-image">
+                            <img src="./assets/calculator 1.png" alt="">
+                            <div class="prt-overlay">
+                                <span class="prt-icon zoom-icon" style="--i: 0s">
+                                    <i class="uil uil-search-plus"></i>
+                                </span>
+                                <a href="https://github.com/Nishusk/SimpleCalculator" class="prt-icon"  style="--i: 0.12s">
+                                    <i class="uil uil-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="prt-desc">
+                            <h3>Calculator</h3>
+                            <a href="#" class="btn secondary-btn-sm read-more-button">Read more</a>
+                        </div>
+                    </div>
+                    <div class="popup-overlay">
+                        <div class="popup-box">
+                            <div class="popup-header">
+                                <h2>KOTLIN</h2>
+                                <button class="popup-close-button">
+                                    <i class="uil uil-times"></i>
+                                </button>
+                            </div>
+                            <div class="popup-content">
+                                <p>This is Kotlin project.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix prt-card web">
+                        <div class="prt-image">
+                            <img src="./assets/portfolio 1.png" alt="">
+                            <div class="prt-overlay">
+                                <span class="prt-icon zoom-icon" style="--i: 0s">
+                                    <i class="uil uil-search-plus"></i>
+                                </span>
+                                <a href="https://github.com/Nishusk/Portfolio-MY" class="prt-icon"  style="--i: 0.12s">
+                                    <i class="uil uil-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="prt-desc">
+                            <h3>Portfolio</h3>
+                            <a href="#" class="btn secondary-btn-sm read-more-button">Read more</a>
+                        </div>
+                    </div>
+                    <div class="popup-overlay">
+                        <div class="popup-box">
+                            <div class="popup-header">
+                                <h2>HTML | CSS | JS </h2>
+                                <button class="popup-close-button">
+                                    <i class="uil uil-times"></i>
+                                </button>
+                            </div>
+                            <div class="popup-content">
+                                <p>This is HTML,CSS and JS Project.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="contact-info">
+                    <h3 class="sub-heading">Contact me</h3>
+                    <h1 class="heading">Get in touch</h1>
+                    <p class="text">Feel free to reach out to me with any inquiries, collaboration opportunities, or questions. I'm excited
+                        to connect and discuss how we can work together to achieve our goals.</p>
+                    <ul class="contact-list">
+                        <li class="list-item">
+                            <a href="mailto:nishuskumari05@gmail.com" class="mail">
+                            <i class="uil uil-fast-mail"></i>
+                            <span>nishuskumari05@gmail.com</span></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="tel:+9170 052 823378 class="mail">
+                            <i class="uil uil-phone"></i>
+                            <span>+91700 528 3378</span></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="mail">
+                            <i class="uil uil-location-pin-alt"></i>
+                            <address>
+                                <p>Nishu Kumari</p>
+                                <p>No :112 / G </p>
+                                <p>Chanmari West</p>
+                                <p>Aizawl , 796007</p>
+                            </address>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="contact-form" name="submit-to-google-sheet">
+                    <h3>Send Message</h3>
+                    <input type="text" placeholder="Name" name="Name" class="form-input" required>
+                    <input type="email" placeholder="Email" name="Email" class="form-input" required>
+                    <textarea name="message" id="message" cols="0" rows="10" placeholder="Message"
+                        class="form-input" required></textarea>
+                    <button type="submit" value="Send Message" class="btn">submit</button><br>
+                    <span id="msg"></span>
+                </form>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <a href="#" class="logo">NI<span>SHU.</span></a>
+            <div class="social-links">
+             <p class="copy">&copy; Copyright 2023 Nishu Kumari. All rights reserved.</p><br>
+        </div>
+        <ul class="social-media">
+            <li class="round"><a href="https://www.linkedin.com/in/nishu-kumari-b7b34621a/" class="social-link"><i class="uil uil-linkedin"></i><span class="new">linkedin&nbsp;&nbsp;&nbsp;</span></a></li>
+            <li class="round"><a href="https://github.com/Nishusk/" class="social-link"><i class="uil uil-github"></i><span class="new">github&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a></li>
+        </ul>
+
+        <a href="#" class="quick-up-button"><i class="uil uil-arrow-up"></i></a>
+
+    </footer>
+
+    <script src="./js/mixitup.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
